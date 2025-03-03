@@ -18,22 +18,22 @@ const projects = [
     {
         num: "01",
         category: 'Fullstack',
-        title: "Bloggit",
-        description: "Blogger is an online platform designed for creating and sharing blog posts. Hosted at https://blogger-l06e.onrender.com/. Users can sign up, create their personal profiles, and start writing blog posts right away. The platform supports adding new blog entries, editing existing ones, and managing user profiles. Additionally, the site features a user-friendly search function, allowing visitors to find blog posts quickly and easily. Blogger aims to provide an intuitive and efficient space for sharing ideas, stories, and information through written content.",
+        title: "Prescripto",
+        description: "A doctor appointment website serves 50,000+ registered users and 5,000+ verified doctors. Developed a user-friendly interface for booking appointments, viewing medical records, and receiving prescriptions. Implemented a real-time chat feature for users to communicate with doctors, reducing response time by 40%. Integrated a payment gateway for users to pay for appointments and prescriptions, increasing revenue by 30%.",
         stack: [{name: "HTML"},{name: "CSS"},{name: "Nodejs"},{name:"ExpressJS"},{name:"MongoDB"}, {name:"NoSQL"} ],
         image: "/assets/work/thumb1.png",
-        live: "https://blogger-l06e.onrender.com/",
-        github: "https://github.com/hardikj2003/Blogger.git"
+        live: "https://prescripto.vercel.app/",
+        github: ""
     },
     {
         num: "02",
-        category: 'Frontend',
-        title: "Portfolio",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        stack: [{name: "HTML"},{name: "TailwindCSS"},{name: "Nextjs"},{name:"ReactJS"} ],
+        category: 'Full Stack',
+        title: "BiteRush",
+        description: "Developed a fully functional food delivery website, enhancing user experience and order efficiency for seamless meal delivery.Scalable Designed a streamlined admin panel featuring role-based access control, this innovation resulted in improved processing time by 30%. Operated a user authentication system with JWT, increasing platform security by 50%. Combined a conversational AI chatbot to assist users with order placement, tracking, and FAQs, enhancing user experience.",
+        stack: [{name: "HTML"},{name: "TailwindCSS"},{name:"ReactJS"},{name:"Stripe"},{name:"MongoDB"}],
         image: "/assets/work/thumb2.png",
-        live: "",
-        github: ""
+        live: "https://food-delivery-frontend-ngcq.onrender.com/",
+        github: "https://github.com/hardikj2003/Food_Delivery"
     },
 ]
 
