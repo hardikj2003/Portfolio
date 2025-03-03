@@ -59,11 +59,6 @@ const experience = {
 
   items: [
     {
-      company: "KPIT Technologies",
-      position: "Training",
-      duration: "Feb-2024 - Present",
-    },
-    {
       company: "Metacrafters",
       position: "Training",
       duration: "June-2023 - August-2023",
@@ -82,17 +77,7 @@ const education = {
       institution: "Chandigarh University",
       degree: "BE in Computer Science Engineering",
       duration: "2021 - 2025",
-    },
-    {
-      institution: "Innocent Hearts School",
-      degree: "Intermediate",
-      duration: "2020-2021",
-    },
-    {
-      institution: "Innocent Hearts School",
-      degree: "Metriculation",
-      duration: "2018 - 2019",
-    },
+    }
   ],
 };
 

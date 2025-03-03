@@ -6,14 +6,14 @@ import Link from 'next/link';
 const services = [
     {
         num: '01',
-        title: 'Web Development',
-        Description: 'Backend Development: Developing robust server-side applications using Node.js, Express.js, and Java.',
+        title: 'Full Stack Web Development',
+        Description: 'Backend Development: Developing robust server-side applications using Node.js. Also capable of creating RESTful APIs and integrating third-party services. Frontend Development: Building responsive and interactive user interfaces using React.js, and TailwindCSS. ',
         href: ""
     },
     {
         num: '02',
         title: 'Database Management',
-        Description: 'Designing and implementing databases using MongoDB, PostgreSQL, and SQL.  Ensuring efficient data retrieval and storage solutions. ',
+        Description: 'Designing and implementing databases using MongoDB, , and SQL.  Ensuring efficient data retrieval and storage solutions. ',
         href: ""
     },
     // {
