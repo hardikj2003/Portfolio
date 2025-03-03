@@ -6,12 +6,12 @@ import { FiDownload } from "react-icons/fi";
 const DownloadButton = () => {
   const handleDownload = () => {
     // Path to your CV file
-    const cvPath = '/path/to/your/CV.pdf'; // Replace this with the actual path to your CV file
+    const cvPath = './Resume.pdf'; // Replace this with the actual path to your CV file
 
     // Create a temporary link element
     const link = document.createElement('a');
     link.href = cvPath;
-    link.download = 'CV.pdf';
+    link.download = 'Resume.pdf';
 
     // Append the link to the document body and click it
     document.body.appendChild(link);
